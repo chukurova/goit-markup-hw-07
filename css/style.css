@@ -38,11 +38,11 @@ img {
     height: auto;
 }
 
-.list-style-none {
+.list {
     list-style: none;
 }
 
-.link-style-none {
+.link {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
