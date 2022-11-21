@@ -12,10 +12,10 @@
     border-radius: 50%;
     border-color: transparent;
     color: var(--main-color);
-}
 
-.social-media-icon:not(:last-child) {
-    margin-right: 10px;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }   
 }
 
 .sm-link {
@@ -27,11 +27,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.sm-link:hover,
-.sm-link:focus {
-    background-color: var(--bright-color);
+    &:hover,
+    &:focus {
+        background-color: var(--bright-color);
+    }
 }
 
 .sm-icon {
@@ -39,9 +39,9 @@
     height: 22px;
     fill: rgba(175, 177, 184, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.sm-link:hover .sm-icon,
-.sm-link:focus .sm-icon {
-    fill: var(--main-color);
+    &:hover .sm-icon,
+    &:focus .sm-icon {
+        fill: var(--main-color);
+    }
 }

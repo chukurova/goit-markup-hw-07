@@ -8,6 +8,11 @@
     align-items: center;
     width: 170px;
     height: 92px;
+
+    &:hover .client,
+    &:focus .client {
+        fill: var(--bright-color);
+    }
 }
 
 .clients {
@@ -17,10 +22,13 @@
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 4%;
-}
 
-.clients:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    &:hover {
+        border-color: var(--bright-color);
+    }
 }
 
 .client {
@@ -30,11 +38,3 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover .client,
-.client-link:focus .client {
-    fill: var(--bright-color);
-}
-
-.clients:hover {
-    border-color: var(--bright-color);
-}

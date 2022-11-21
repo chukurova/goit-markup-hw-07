@@ -13,13 +13,6 @@ footer {
     color: var(--footer-contacts-color);
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus {
-    color: var(--bright-color);
-}
-
 .map {
     color: var(--main-color);
     padding-bottom: 9px;
@@ -28,13 +21,6 @@ footer {
 .footer-link:not(:last-child) {
     margin-bottom: 9px;
 }
-
-.footer-container {
-    display: flex;
-    align-items: baseline;
-}
-
-
 
 .sm-footer {
     text-transform: uppercase;
@@ -60,11 +46,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.sm-link-footer:hover,
-.sm-link-footer:focus {
-    background-color: var(--bright-color);
+    &:hover,
+    &:focus {
+        background-color: var(--bright-color);
+    }
 }
 
 .sm-icon-footer {

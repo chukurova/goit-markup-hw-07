@@ -13,10 +13,10 @@
     display: flex;
     flex-direction: column;
     position: relative;
-}
 
-.project-gallery:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .img-heading {
