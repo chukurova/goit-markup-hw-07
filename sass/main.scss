@@ -1,2 +1,25 @@
-@import 'utils/variables';
+
 @import 'base/common';
+@import 'base/container';
+@import 'base/section';
+
+@import 'utils/variables';
+@import 'utils/visually-hidden';
+@import 'utils/section-heading';
+
+@import 'components/logo';
+@import 'components/social-links';
+@import 'components/filter-button';
+@import 'components/portfolio-items';
+@import 'components/navigation';
+@import 'components/contacts';
+
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/advantages';
+@import 'layout/gallery';
+@import 'layout/team';
+@import 'layout/clients';
+@import 'layout/footer';
+@import 'layout/form';
+@import 'layout/portfolio';

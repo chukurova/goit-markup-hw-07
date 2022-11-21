@@ -1,0 +1,18 @@
+header {
+    border-bottom: 1px solid var(--header-border);
+}
+.header-link.current {
+    color: var(--bright-color);
+    position: relative;
+}
+
+.current::after {
+    content: '';
+    background: var(--bright-color);
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+}
